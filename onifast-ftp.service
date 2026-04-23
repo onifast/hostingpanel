@@ -1,0 +1,20 @@
+[Unit]
+Description=Onifast FTP Server
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/home/root/onifast
+ExecStart=/usr/local/bin/onifast-ftp
+Restart=always
+RestartSec=5
+StandardOutput=append:/var/log/onifast/ftp.log
+StandardError=append:/var/log/onifast/ftp.log
+
+# Security settings
+NoNewPrivileges=false
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

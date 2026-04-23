@@ -12,10 +12,6 @@ fi
 git remote add origin https://github.com/pastioke/onifast.git 2>/dev/null || \
 git remote set-url origin https://github.com/pastioke/onifast.git
 
-# 3. Create .gitignore to exclude the large panel binary
-cat > .gitignore << 'EOF'
-onifast-panel
-EOF
 
 # 4. Stage all files (excluding .gitignore-d files)
 git add .

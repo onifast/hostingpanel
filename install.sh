@@ -2,7 +2,7 @@
 set -e
 
 # Configuration
-REPO_URL="https://raw.githubusercontent.com/pastioke/onifast/main"
+REPO_URL="https://raw.githubusercontent.com/onifast/hostingpanel/main"
 BIN_DIR="/usr/local/bin"
 SERVICE_DIR="/etc/systemd/system"
 WORKDIR="/home/root/onifast"

@@ -1,1 +1,1 @@
-wget -qO- https://raw.githubusercontent.com/pastioke/onifast/main/install.sh | sudo bash
+wget -qO- https://raw.githubusercontent.com/onifast/hostingpanel/main/install.sh | sudo bash

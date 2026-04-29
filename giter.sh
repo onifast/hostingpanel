@@ -9,8 +9,8 @@ if [ ! -d ".git" ]; then
 fi
 
 # 2. Add or update the remote
-git remote add origin https://github.com/pastioke/onifast.git 2>/dev/null || \
-git remote set-url origin https://github.com/pastioke/onifast.git
+git remote add origin https://github.com/onifast/hostingpanel.git 2>/dev/null || \
+git remote set-url origin https://github.com/onifast/hostingpanel.git
 
 
 # 4. Stage all files (excluding .gitignore-d files)
